@@ -3,10 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Mauk</title>
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--My style sheet-->
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+
+  <!-- Landing/Header Section
+      Navbar
+      About Me
+      Projects Section
+      Static Layout Application
+      Creature Assignment
+      Business Challenges
+      Blue Badge TBA
+      Red Badge TBA
+      Contact Section
+      Footer -->
 </head>
 <body>
-    
+    <header>
+    <!-- Navbar -->
+    <nav class="sticky">
+        <div class="row">
+        <ul class="main-nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        </div>
+    </nav>
+    </header>
+    <div class="jumbotron jumbotron-fluid top">
+        <div class="container mainContainer">
+            <h1 class="display-4">Anthony Mauk</h1>
+            <p class="lead">Software Developer</p>
+        </div>
+    </div>
+
+
+    <!--About Me-->
+    <!-- <div class="container">
+      <div class="alert alert-success">
+    <h2><a name="about">About Me</a></h2>
+       <div id="about">
+      <p>Experienced professional with proven success throughout my career.  
+          Began career in programming, moved to healthcare administration, now transitioning 
+          back to software development.  Determined and creative Software Developer 
+          looking to utilize eagerness to learn, passion for coding, and problem solving to 
+          transition from design to development in the tech industry.
+      
+      </p> </div>
+      <br>
+      <br>
+      </div>
+    </div> -->
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about-mf sect-pt4 route">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="box-shadow-full">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="row">
+                          <div class="col-sm-6 col-md-5">
+                            <div class="about-img">
+                              <img src="assets/DreamAPI.PNG" class="img-fluid rounded b-shadow-a" alt="">
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-md-7">
+                            <div class="about-info">
+                              <p><span class="title-s">Name: </span> <span>Anthony Mauk</span></p>
+                              <p><span class="title-s">Profile: </span> <span>Software Developer</span></p>
+                              <p><span class="title-s">Email: </span> <span>mauk@indy.net</span></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="skill-mf">
+                          <p class="title-s">Skill</p>
+                          <span>HTML</span> <span class="pull-right">75%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <span>CSS</span> <span class="pull-right">50%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                          <span>C#</span> <span class="pull-right">50%</span>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="about-me pt-4 pt-md-0">
+                          <div class="title-box-2">
+                            <h5 class="title-left">
+                              About me
+                            </h5>
+                          </div>
+                          <p class="lead">
+                            Experienced professional with proven success throughout my career.  
+          Began career in programming, moved to healthcare administration, now transitioning 
+          back to software development.  Determined and creative Software Developer 
+          looking to utilize eagerness to learn, passion for coding, and problem solving to 
+          transition from design to development in the tech industry.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section><!-- End About Section -->
+
+
+    <!--Projects-->
+    <div class="project-container">
+      <div class="alert alert-info">
+        
+    <h2><a name="portfolio">Projects</a></h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h4>DreamAPI Group</h4>
+        <a href="https://github.com/dknauff/DreamAPI">
+            <img class="projects" src="Assets/DreamAPI.PNG" alt ="DreamAPI Group Project" width="300px" height="300px">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <h4>Static Website</h4>
+        <a href="https://anthony-mauk.github.io/Omnifood/">
+            <img class="projects" src="Assets/Omnifood.PNG" alt ="Omnifood Static Website">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <h4>LeagueApp MVC</h4>
+        <a href="https://leagueappweb.azurewebsites.net/">
+            <img class="projects" src="Assets/LeagueApp.PNG" alt ="LeagueApp MVC">
+        </a>
+      </div>
+
+    <br>
+    <br>
+    </div>
+  </div>
+
+
+    <!--Contact Form-->
+  <div class="container">
+    <div class="alert alert-info">
+    <h2><a name="contact">Contact</a></h2>
+    <br>
+    <form action="https://formspree.io/f/xyybdogw" method="POST">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name">
+          </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" class="form-control" id="phoneNumber" aria-describedby="phoneHelp" name="telephone">
+          <small id="phoneHelp" class="form-text text-muted">I'll never share your phone number
+               with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+    <!--Footer-->
+  <div class="container">
+    <h2><a name="moreInfo">For More Information</a></h2>
+    <div class="row">
+      <div class="col-md-4">
+        <a href="https://www.linkedin.com/in/tonymauk/">LinkedIN</a>
+      </div>
+      <div class="col-md-4">
+        <a href="https://github.com/Anthony-Mauk">GitHub</a>
+      </div>
+      <div class="col-md-4">
+        <a href="Assets/resume.pdf">Download Resume</a>
+      </div>
+
+    </div>
+  </div>
+  <br>
+
+  <section id="footer-section">
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="#top"> Anthony Mauk</a>
+        </div>
+    </footer>
+</section>
+
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
